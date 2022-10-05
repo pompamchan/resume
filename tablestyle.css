@@ -1,5 +1,40 @@
 thead,
-tfoot{
+tfoot {
   background-color: #333;
   color: #fff;
+}
+.crossDiv, #spaceDisplay, #centerDisplay {
+  display: flex;
+}
+
+.middle-container {
+  height: 200px;
+  width: 200px;
+  background-color: #FF9494;
+}
+
+.bottom-container {
+  height: 200px;
+  width: 200px;
+  background-color: #937DC2;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.crossDiv {
+  height: 600px;
+  width: 600px;
+  flex-direction: column;
+}
+
+#spaceDisplay {
+  justify-content: space-between;
+}
+
+#centerDisplay {
+  justify-content: center;
+}
+
+#noneborder {
+  border: 1px solid white;
 }
