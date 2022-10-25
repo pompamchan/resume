@@ -1,40 +1,121 @@
-thead,
-tfoot {
-  background-color: #333;
-  color: #fff;
-}
-.crossDiv, #spaceDisplay, #centerDisplay {
-  display: flex;
+
+h1 {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+  line-height: 30px;
 }
 
-.middle-container {
+hr {
+  /* border-style:dotted none none;  */
+  border-color: #F9F9F9;
+  /* border-width: 1.5px; */
+  height: 0px;
+  width: 30%;
+  /* line-height:10px; */
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 3px
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 3.5px
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 2px
+}
+
+h5 {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+  line-height: 30px;
+  font-style: white;
+}
+
+h6 {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  line-height: 30px;
+  font-style: white;
+}
+
+
+h7 {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+   font-size: 0.84rem;
+   letter-spacing:2px;
+  line-height:18px;
+}
+
+
+
+
+
+.red {
+  border-radius: 0px 0px 100px 0px;
+  background-color: #3D4B56
+;
   height: 200px;
   width: 200px;
-  background-color: #FF9494;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: solid 6px #F9F9F9;
 }
 
-.bottom-container {
-  height: 200px;
-  width: 200px;
-  background-color: #937DC2;
-  display: inline-flex;
-  justify-content: center;
+.blue {
+  border-radius: 0px 0px 0px 0px;
+  background-color: #062006;
+  height: 820px;
+  width: 300px;
+  position: absolute;
+  top: 150px;
+  left: 35px;
+
 }
 
-.crossDiv {
-  height: 600px;
-  width: 600px;
-  flex-direction: column;
+.TextA4 {
+  height: 950px;
+  width: 400px;
+  position: absolute;
+  top: 35px;
+  left: 360px;
 }
 
-#spaceDisplay {
-  justify-content: space-between;
+.blue2 {
+  position: absolute;
+  top: 180px;
+  left: 35px;
+  color: white;
 }
 
-#centerDisplay {
-  justify-content: center;
+.A4 {
+  height: 1000px;
+  width: 800px;
+  background-color: #F9F9F9;
+  position: absolute;
+  left: 20%;
 }
 
-#noneborder {
-  border: 1px solid white;
+.profile {
+  border-radius: 80px 40px 80px 40px;
+  border: solid 6px #151515;
+  height: 255px;
+  position: absolute;
+  top: 50px;
+  left: 64px;
 }
